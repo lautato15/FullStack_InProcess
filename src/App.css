@@ -1,7 +1,6 @@
 .content {
-  position: absolute;
-  left: 31%;
-  top: 55%;
+  margin-bottom: 20px;
+  
 }
 
 .loader {
@@ -65,63 +64,113 @@
     height: 0%;
   }
 }
-
+.father{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .circle {
   position: relative;
-
-  height: 70vh;
+  /* border: solid 4px white; */
+  height: 500px;
   width: 70vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .react {
   position: absolute;
-  top: 10px;
-  left: 21vh;
-  scale: 0.7;
+  height: 100px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  
+}
+.react > a > img{
+  padding: 0;
 }
 .boostrap {
   position: absolute;
   right: 0px;
+  height: 100px;
   top: 100px;
-  scale: 0.7;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.boostrap > a > img{
+  padding: 0;
 }
 .github {
   position: absolute;
-  right: -45px;
-  top: 50%;
-  scale: 0.7;
+  right: 0%;
+  top: 200px;
+}
+.github > a > img{
+  padding: 0;
 }
 .jwt {
   position: absolute;
   right: 0px;
-  bottom: -50px;
-  scale: 0.7;
+  top: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.jwt > a > img{
+  padding: 0;
 }
 .mongo {
   position: absolute;
-  bottom: -130px;
-  left: 21vh;
-  scale: 0.7;
+  top: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   filter: drop-shadow(0 0 1rem #000000aa);
+}
+.mongo > a > img{
+  padding: 0;
 }
 .node {
   position: absolute;
-  left: -5px;
-  bottom: -55px;
+  left: 0px;
+  top: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+ 
   /* filter: drop-shadow(0 0 1.2em #ffffff); */
-
-  scale: 0.7;
+}
+.node > a > img{
+  padding: 0;
 }
 .redux {
   position: absolute;
-  left: -50px;
-  top: 50%;
-  scale: 0.7;
+  left: 0%;
+  top: 200px;
   filter: drop-shadow(0 0 4em #ffffff7c);
+}
+.redux > a > img{
+  padding: 0;
 }
 .sequelize {
   position: absolute;
   left: 0px;
+  height: 100px;
   top: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.sequelize > a > img{
+  padding: 0;
+}
+.tamaño{
   scale: 0.7;
 }
 .space {

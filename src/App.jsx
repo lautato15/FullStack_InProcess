@@ -31,43 +31,43 @@ function App() {
 
           <div className="react">
             <a href="" target="_blank">
-              <img src={reactLogo} className="logo " alt="React logo" />
+              <img src={reactLogo} className="logo tamaño " alt="React logo" />
             </a>
           </div>
           <div className="boostrap">
             <a href="" target="_blank">
-              <img src={boostrap} className="logo" alt="Vite logo" />
+              <img src={boostrap} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
           <div className="github">
             <a href="" target="_blank">
-              <img src={github} className="logo" alt="Vite logo" />
+              <img src={github} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
           <div className="jwt">
             <a href="" target="_blank">
-              <img src={jwt} className="logo" alt="Vite logo" />
+              <img src={jwt} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
           <div className="mongo">
             <a href="" target="_blank">
-              <img src={mongo} className="logo" alt="Vite logo" />
+              <img src={mongo} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
           <div className="node">
             <a href="" target="_blank">
-              <img src={node} className="logo" alt="Vite logo" />
+              <img src={node} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
 
           <div className="redux">
             <a href="" target="_blank">
-              <img src={redux} className="logo" alt="Vite logo" />
+              <img src={redux} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
           <div className="sequelize">
             <a href="" target="_blank">
-              <img src={sequelize} className="logo" alt="Vite logo" />
+              <img src={sequelize} className="logo tamaño" alt="Vite logo" />
             </a>
           </div>
         </div>
